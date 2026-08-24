@@ -1,7 +1,6 @@
 # src/ 负责可复用库 target 及其构建要求。
 add_library(sturdy_guide
   greeting.cpp
-  laixin.cpp
   text.cpp
 )
 add_library(SturdyGuide::sturdy_guide ALIAS sturdy_guide)
